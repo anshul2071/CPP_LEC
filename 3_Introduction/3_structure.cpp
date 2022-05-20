@@ -34,7 +34,7 @@ int main()
     //Displaying the record of student.//
         for(i=0;i<5;++i)
         {
-            cout<<"\nDisplaying The records:" << endl;
+                    cout<<"\nDisplaying The records:" << endl;
 
             cout<<"Name:\n"<<A[i].name <<endl;
             cout<<"Address:\n"<<A[i].address <<endl;
