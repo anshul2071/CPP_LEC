@@ -16,7 +16,7 @@ class Derived: public Base
     public:
     void print()
     {
-        cout<<"Derived Functio is "<<endl;
+        cout<<"Derived Function is "<<endl;
     }
 };
 
