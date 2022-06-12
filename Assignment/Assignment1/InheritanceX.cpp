@@ -67,6 +67,8 @@ int main()
 
     num = ObjA.Pvtdata1; //Error: not accesible
     num = ObjA.protdata1; //Error: not accesible
-    num = ObjA.pubdata1;  //ok:pubdata is public to Y
+    num = ObjA.pubdata1;  //error
+
+    return 0;
 
 }
